@@ -1,0 +1,63 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    line-height: 1;
+    height: 100%;
+    position: relative;
+    -moz-min-width: 100%;
+    -ms-min-width: 100%;
+    -o-min-width: 100%;
+    -webkit-min-width: 100%;
+    min-width: 100%;
+    z-index: 10;
+    
+    -webkit-tap-highlight-color: #ffffff;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-focus-ring-color: #ffffff;
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0);
+    outline: none;
+
+}
+
+
+input {
+    font-family: inherit;
+}
+
+    input[type=button] {
+        cursor: pointer;
+    }
+
+button, input {
+    border: none;
+    vertical-align: middle;
+    outline: none;
+    -webkit-appearance: none;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+}
+
+    button:enabled {
+        cursor: pointer;
+    }
+
+input, textarea, select {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+html,body{margin:0;padding:0}
